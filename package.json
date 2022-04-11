@@ -1,4 +1,8 @@
 {
+  "name": "dinnerTime",
+  "engines": {
+    "yarn": "1.21.1"
+  },
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
     "@rails/activestorage": "^6.0.0",

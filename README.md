@@ -3,7 +3,7 @@
 Its an web application which suggest recipes from your ingredients. 
 You can access it on here https://shrouded-ravine-05103.herokuapp.com/ 
 
-###Tools used:
+### Tools used:
 Ruby on rails, Mysql, Rspec for testing and react on front end. Deployed on heroku
 
 ### User stories

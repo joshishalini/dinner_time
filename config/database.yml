@@ -52,4 +52,4 @@ production:
   <<: *default
   database: dinner_time_production
   username: bce9d577514731
-  password: DINNER_TIME_DATABASE_PASSWORD
+  password: <%= ENV["DINNER_TIME_DATABASE_PASSWORD"] %>

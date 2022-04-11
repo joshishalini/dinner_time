@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   root 'recipes#index'
 
-  resources :recipes do
-    collection do 
-      get :get_recipes
-    end
+  namespace :api, defaults: { format: 'json' } do
+    resources :recipes, only: [:index, :show]
   end
+
+  match '*path', to: 'recipes#index', via: :all
 end

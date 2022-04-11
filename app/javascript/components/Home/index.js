@@ -115,7 +115,7 @@ export default class Home extends Component {
                 }
                 </ListGroup>
                 <Card.Body>
-                  <Card.Link href={`/recipe/${recipe.id}`}>More Info</Card.Link>
+                  <Card.Link href={`/recipes/${recipe.id}`}>More Info</Card.Link>
                 </Card.Body>
               </Card>
                 ))}

@@ -4,7 +4,7 @@ module Api
       if params[:ingredients].present?
         @recipes = Recipe.where("ingredients like ?", "%#{params[:ingredients].split(",").join("%")}%")
       else
-        @recipes = Recipe.first(10)
+        @recipes = Recipe.first(12)
       end
       render json: { recipes: @recipes}
     end
